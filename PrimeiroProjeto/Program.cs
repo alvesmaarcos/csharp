@@ -1,5 +1,7 @@
-﻿string msgBoasVindas =  "Boas vindas ao Screen Sound";
-List<string> listaBandas = new List<string>();
+﻿using System.Runtime;
+
+string msgBoasVindas =  "Boas vindas ao Screen Sound";
+List<string> listaBandas = new List<string> {"U2", "The Beatles"};
 void ExibirLogo()
 {
     Console.WriteLine(@"
@@ -28,7 +30,7 @@ void ExibirOpcoesMenu()
     {
         case 1: RegistrarBanda();
             break;
-        case 2: Console.WriteLine("Você escolheu a opção " + opcaoEscolhidaNum);
+        case 2: MostrarBandas();
             break;
         case 3: Console.WriteLine("Você escolheu a opção " + opcaoEscolhidaNum);
             break;
@@ -53,6 +55,21 @@ void RegistrarBanda()
     Thread.Sleep(2000);
     Console.Clear();
     ExibirOpcoesMenu();
+}
+
+void MostrarBandas()
+{
+    Console.Clear();
+    Console.WriteLine("Mostrando todas as bandas registradas:");
+    //for(int i = 0; i < listaBandas.Count; i++)
+    //{
+    //    Console.WriteLine($"{i+1}: {listaBandas[i]}");
+    //}
+    
+    foreach(string banda in listaBandas)
+    {
+        Console.WriteLine($"{banda}");
+    }
 }
 ExibirLogo();
 ExibirOpcoesMenu();

@@ -15,12 +15,10 @@ while (true)
     else if(randInt > num)
     {
         Console.WriteLine("Maior");
-        continue;
     }
     else
     {
         Console.WriteLine("Menor");
-        continue;
     }
 
 }

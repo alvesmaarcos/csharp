@@ -1,0 +1,1 @@
+Criar um programa que calcula a soma de todos os elementos inteiros em uma lista.

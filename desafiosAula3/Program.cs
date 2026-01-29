@@ -1,5 +1,15 @@
 ﻿// 1
+using System.Collections;
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.Data;
 using System.Diagnostics;
+using System.Linq.Expressions;
+using System.Net.Sockets;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
+using System.Xml;
+using Microsoft.Win32.SafeHandles;
 
 void ObterNums(){
     float num1 = float.Parse(Console.ReadLine()!);
@@ -39,6 +49,23 @@ void CalcularLista(){
     Console.WriteLine(total);
 }
 
+// Exercício "Faça como eu fiz": Crie uma lista de inteiros utilizando o List<int> e utilize o for e o foreach para iterar sobre essa lista e exibir apenas os números pares.
+void MostrarPares()
+{
+    List<int> listNum = new List<int>();
+    Random rand = new Random();
+    for (int i = 0; i < 10; i++)
+    {
+        listNum.Add(rand.Next(1, 101));
+    }
+    
+    foreach(int num in listNum)
+    {
+        if(num % 2 == 0) Console.WriteLine(num);
+    }
+
+}
+
 void ColetarOpcao(){
 int opcao = int.Parse(Console.ReadLine()!);
 switch (opcao)
@@ -46,6 +73,7 @@ switch (opcao)
         case 1: ObterNums(); break;
         case 2: MostrarBandasFavoritas(); break;
         case 3: CalcularLista(); break;
+        case 4: MostrarPares(); break;
         default: Console.WriteLine("Opção inválida."); break;
     }
 }

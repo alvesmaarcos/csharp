@@ -1,0 +1,2 @@
+Criar uma lista de bandas vazia e adicionar suas bandas prediletas em seguida.
+Utilizar a estrutura 'for' para mostrar todas as suas bandas preferidas, listadas na lista do exercício anterior, no console.

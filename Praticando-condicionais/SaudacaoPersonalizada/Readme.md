@@ -1,0 +1,27 @@
+Você trabalha no desenvolvimento de Lura IA, um assistente virtual para um sistema de atendimento ao cliente. Ela precisa personalizar suas mensagens de acordo com o horário do dia para tornar a interação mais amigável e natural.
+
+Para isso, você precisa de um programa que:
+
+Pergunte ao usuário qual o momento do dia (manhã, tarde ou noite).
+Solicite o nome do usuário.
+Exiba uma saudação personalizada com base no momento do dia e no nome fornecido.
+Exiba uma mensagem em caso de opção inválida.
+
+### Exemplo de entrada:
+
+1 - Manhã
+
+2 - Tarde
+
+3 - Noite
+ 
+Que momento do dia é agora?
+
+2
+
+Qual o seu nome?
+Mike
+
+### Saída esperada:
+
+Boa tarde, Mike.

@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerificadorDeSaldo", "VerificadorDeSaldo\VerificadorDeSaldo.csproj", "{33249444-7AD2-BB01-7AC5-7D23A51B5F6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33249444-7AD2-BB01-7AC5-7D23A51B5F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33249444-7AD2-BB01-7AC5-7D23A51B5F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33249444-7AD2-BB01-7AC5-7D23A51B5F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33249444-7AD2-BB01-7AC5-7D23A51B5F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C88363F1-3839-427E-B6C2-EBEA16186D0D}
+	EndGlobalSection
+EndGlobal

@@ -22,5 +22,4 @@ switch (cupom)
     default:
     Console.WriteLine("Cupom inválido");
     break;
-
 }
